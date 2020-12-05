@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class CourseInfo implements Parcelable {
+    // for getting the information on the course
     private final String mCourseId;
     private final String mTitle;
     private final List<ModuleInfo> mModules;
